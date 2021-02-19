@@ -9,51 +9,67 @@ const questions = ()=>
         type: 'input',
         name: 'title',
         message: 'What is is the title of your project?',
+        validate: (value)=>{if (value) {return value} else { return "I need a value to continue"}},
     },
     {
         type: 'input',
-        name: 'aim',
-        message: 'What motivated to build this project?',
+        name: 'description',
+        message: 'Describe what your application does?',
+        validate: (value)=>{if (value) {return value} else { return "I need a value to continue"}},
+    },
+    {
+        type: 'input',
+        name: 'motivation',
+        message: 'What motivated to build this app?',
+        validate: (value)=>{if (value) {return value} else { return "I need a value to continue"}},
     },
     {
         type: 'input',
         name: 'installation',
-        message: 'How do you install this project?',
+        message: 'How do you install this app?',
+        validate: (value)=>{if (value) {return value} else { return "I need a value to continue"}},
     },
     {
         type: 'input',
         name: 'screenshot',
-        message: 'Enter a url or folder path to add screenshots of your project?',
+        message: 'Enter a url or folder path to add screenshots of your project',
+        validate: (value)=>{if (value) {return value} else { return "I need a value to continue"}},
+    },
+    {
+        type: 'input',
+        name: 'link',
+        message: 'Enter a link to your deployed application',
+        validate: (value)=>{if (value) {return value} else { return "I need a value to continue"}},
     },
     {
         type: 'input',
         name: 'usage',
         message: 'How do you use this?',
+        validate: (value)=>{if (value) {return value} else { return "I need a value to continue"}}
     },
     {
         type: 'input',
         name: 'technology',
         message: 'What technology was this project built with?',
+        validate: (value)=>{if (value) {return value} else { return "I need a value to continue"}}
     },
     {
         type: 'input',
-        name: 'success',
-        message: 'What were the successes of this project?',
-    },
-    {
-        type: 'input',
-        name: 'difficulty',
-        message: 'What were the difficulties of this project?',
+        name: 'thoughts',
+        message: 'What were the successes/challenges of this project?',
+        validate: (value)=>{if (value) {return value} else { return "I need a value to continue"}}
     },
     {
         type: 'input',
         name: 'credits',
         message: 'Add the creditors of this project',
+        validate: (value)=>{if (value) {return value} else { return "I need a value to continue"}}
     },
     {
         type: 'input',
         name: 'license',
         message: 'What license was used for this project?',
+        validate: (value)=>{if (value) {return value} else { return "I need a value to continue"}},
     },
     ]);
 
