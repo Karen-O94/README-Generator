@@ -17,7 +17,7 @@ const questions = ['What is is the title of your project?',
 'Who are the creditors of this project']
 
 
-// TODO: Create a function to write README file
+// This function writes the README file
 function writeToFile(fileName, data) {
     fs.writeFileSync(fileName, generateMarkdown(data), (err) =>
     err ? console.error(err) : console.log('Successfully wrote to README.md!'));
