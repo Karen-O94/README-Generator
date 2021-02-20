@@ -2,10 +2,14 @@
 
   ## Licence
 
-undefinedundefined
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+
+> This project was created under the Apache License, Version 2.0.
+
+[Learn more about this licence.](https://www.apache.org/licenses/LICENSE-2.0)
 
   ## Description
-  abcd
+  fenvirjgofbmhg;n
 
   ## Table of Contents
   1. [Installation](#Installation)
@@ -18,28 +22,28 @@ undefinedundefined
 
   ## Installation
 
-  abdc
+  Npm i inquirer
 
   ## Usage
 
-  abcd
+  This app is used to generate readmes
 
   ## Contributions
 
-  hi
+  none
 
   ## Testing
 
-  skfjrogvf
+  hbfefkrg
 
   ## Credits
-  There were none
+  none
 
   ## Questions?
 
   Please contact me on the links below if you have any queries on how the application works or to view my other projects:
 
-  My GitHub username is dbejfk 
+  My GitHub username is Karen-94 
 
   Link to GitHub Profile: karen@email.com
   

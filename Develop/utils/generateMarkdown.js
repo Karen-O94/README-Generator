@@ -43,7 +43,7 @@ function renderLicenseLink(license) {
 
 function renderLicenseSection(license) {
   if (license !== "Other") {
-    let licenseType = "## Licence\n\n" + renderLicenseBadge(license) + renderLicenseLink(license);
+    let licenseType = "## License\n\n" + renderLicenseBadge(license) + renderLicenseLink(license);
     return licenseType;
   }
   else {
@@ -95,7 +95,7 @@ function generateMarkdown(data) {
   My GitHub username is ${data.github} 
 
   Link to GitHub Profile: ${data.email}
-  
+
   Email:  ${data.email}
 `;
 }
