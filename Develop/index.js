@@ -7,7 +7,7 @@ const generateMarkdown = require('./utils/generateMarkdown');
 const questions = ['What is is the title of your project?',
 'Please describe what your application does',
  'How do you install this app?',
- 'How do you use this app?', 
+ 'How is this app used?', 
  'What license did you use?',
  'What are the contribution guidelines for this project?'
  ,'How do you test your app?', 
@@ -51,7 +51,7 @@ function init() {
             type: 'list',
             name: 'license',
             message: questions[4],
-            choices: ['MIT License', 'GPLv3 License', 'Apache License','Mozilla License','Other']
+            choices: ['MIT License', 'GPLv3 License', 'Apache License','Mozilla License', 'Other']
         },
         {
             type: 'input',
