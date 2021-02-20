@@ -1,15 +1,15 @@
 # Hello World
 
-  ## Licence
+  ## License
 
-[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+[![GPLv3 license](https://img.shields.io/badge/License-GPLv3-blue.svg)](http://perso.crans.org/besson/LICENSE.html)
 
-> This project was created under the Apache License, Version 2.0.
+> This project was created under the GNU General Public License.
 
-[Learn more about this licence.](https://www.apache.org/licenses/LICENSE-2.0)
+[Learn more about this licence.](http://www.gnu.org/licenses/gpl-3.0.en.html)
 
   ## Description
-  fenvirjgofbmhg;n
+  This app generates a readme
 
   ## Table of Contents
   1. [Installation](#Installation)
@@ -22,11 +22,11 @@
 
   ## Installation
 
-  Npm i inquirer
+  by using npm inquirer
 
   ## Usage
 
-  This app is used to generate readmes
+  responses given generates the content of the readme
 
   ## Contributions
 
@@ -34,7 +34,7 @@
 
   ## Testing
 
-  hbfefkrg
+  terminal
 
   ## Credits
   none
@@ -43,8 +43,8 @@
 
   Please contact me on the links below if you have any queries on how the application works or to view my other projects:
 
-  My GitHub username is Karen-94 
+  My GitHub username is karen-094 
 
   Link to GitHub Profile: karen@email.com
-  
+
   Email:  karen@email.com
