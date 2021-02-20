@@ -93,7 +93,9 @@ function generateMarkdown(data) {
   Please contact me on the links below if you have any queries on how the application works or to view my other projects:
 
   My GitHub username is ${data.github} 
+
   Link to GitHub Profile: ${data.email}
+  
   Email:  ${data.email}
 `;
 }
