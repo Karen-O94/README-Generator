@@ -95,7 +95,7 @@ function generateMarkdown(data) {
 
   My GitHub username is ${data.github} 
 
-  Link to GitHub Profile: ${data.email}
+  Link to GitHub Profile: ${data.gitURL}
 
   Email:  ${data.email}
 `;
