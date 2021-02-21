@@ -7,7 +7,8 @@ The aim of this project was to create a command-line application to quickly gene
 *Command line*
 ![image](https://user-images.githubusercontent.com/74797740/108611777-d430d680-73d9-11eb-8ec1-b7bb0669e2ac.png)
 
-*Generate Sample README file*
+*Generated Sample README file*
+![SampleREADME](https://user-images.githubusercontent.com/74797740/108613163-55db3100-73e7-11eb-9d25-5f9635ae9a6d.gif)
 
 ## Installation
 In order to generate your own README, you will need to run `npm i inquirer` in order to install the 'inquirer' package dependencies as specified in the package.json.
@@ -19,7 +20,7 @@ Once inquirer is installed, you can initialise the application itself by running
 ## Usage 
 
 *Please see the video walkthrough for this application below*
-
+![READMEGeneratorComp](https://user-images.githubusercontent.com/74797740/108613080-65a64580-73e6-11eb-93c4-2403430032de.gif)
 
 [Google Drive Link to video walkthrough](https://drive.google.com/file/d/18lkkwei-JA-34o3CtTS4qdAJs0bhPPYs/view)
 
