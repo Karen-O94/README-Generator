@@ -1,9 +1,9 @@
-// TODO: Include packages needed for this application
+// List of packages needed for this application
 const inquirer = require('inquirer');
 const fs = require('fs');
 const generateMarkdown = require('./utils/generateMarkdown');
 
-// TODO: Create an array of questions for user input
+// An array of questions for user input
 const questions = ['What is is the title of your project?',
 'Please describe what your application does',
  'How do you install this app?',
@@ -24,7 +24,7 @@ function writeToFile(fileName, data) {
 }
 
 
-// TODO: Create a function to initialize app
+// This function initializes app
 function init() {
     inquirer.prompt([
         {
